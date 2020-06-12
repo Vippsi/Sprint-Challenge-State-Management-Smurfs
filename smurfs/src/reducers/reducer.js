@@ -24,7 +24,7 @@ export const reducer = ( state = initialState, action) => {
         case UPDATE_NEW_VILLAGE:
             return{
                 ...state,
-                smurfs:[...state.smurfs, action.payload]
+                smurfs:[action.payload, ...state.smurfs ]
             }
         
         case SET_ERROR:

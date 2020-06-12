@@ -4,9 +4,9 @@ const Smurf = ({ smurf }) => {
 
     return(
         <div>
-            <h3>{smurf.name}</h3>
-            <p>{smurf.age}</p>
-            <p>{smurf.height}</p>
+            <h3>Name:{smurf.name}</h3>
+            <p>Age: {smurf.age}</p>
+            <p>Height: {smurf.height}</p>
         </div>
     )
 
